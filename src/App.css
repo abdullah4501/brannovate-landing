@@ -1,0 +1,114 @@
+.main{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+.element-contain{
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+.element-contain .most-left{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-shrink: 1;
+    flex-grow: 0;
+    padding-right: 35px;
+    row-gap: 30px;
+}
+.element-contain .center{
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-shrink: 1;
+    flex-grow: 0;
+    justify-content: center;
+}
+.element-contain .most-right{
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-shrink: 1;
+    flex-grow: 0;
+    justify-content: center;
+}
+.element-contain .center .main-title .title{
+    color: #121212;
+    font-family: "Kanit", Sans-serif;
+    font-size: 110px;
+    font-weight: 600;
+    line-height: 1em;
+}
+.element-contain .left-inner-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 480px;
+    /* margin-left: 40px; */
+}
+.element-contain .left-inner-container .img-container{
+    height: 100%;
+    width: 100%;
+    transform: translateX(-55px) !important;
+    transform: translateY(15px);
+}
+.element-contain .left-inner-container .img-container img{
+    height: 100%;
+    width: 100%;
+}
+.element-contain .center .main-desc{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    /* height: 100%; */
+    justify-content: space-between;
+    column-gap: 33px;
+}
+.element-contain .center .main-desc .left{
+    width:100%;
+    display: flex;
+    align-items: start;
+    margin-top: 20px;
+}
+.element-contain .center .main-desc .divider{
+    border-bottom: 1px solid #D60000;
+    width: 100%;   
+}
+.element-contain .center .main-desc .text{
+    font-family: "Kanit", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42em;
+    color: #666666;
+}
+.most-right .single-img{
+    display: flex;
+    align-self: flex-end;
+    width: 100%;
+    padding-top: 25px;
+    flex-direction: column;
+}
+.most-right .single-img img{
+    width: 100%;
+    height: auto;
+}
+.most-left .bottom-inner{
+    display: flex;
+    align-self: flex-end;
+    width: 250px;
+    height: 100%;
+
+}
+.most-left .bottom-inner .single-img{
+    height: 100%;
+}
+.most-left .bottom-inner .single-img img{
+    height: auto;
+    width: 100%;
+}
