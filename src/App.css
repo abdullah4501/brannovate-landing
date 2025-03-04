@@ -2,6 +2,7 @@
     height: 90vh;
     display: flex;
     flex-direction: row;
+    margin-left: 250px;
 }
 .element-contain{
     display: flex;
@@ -60,7 +61,7 @@
 }
 .element-contain .left-inner-container .img-container img{
     height: 100%;
-    width: 100%;
+    width: auto;
 }
 .element-contain .center .main-desc{
     width:100%;

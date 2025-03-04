@@ -17,7 +17,7 @@ function App() {
           </a>
         </div>
       </nav>
-      <div className="main container  p-0" style={{marginRight: '0'}}>
+      <div className="main  p-0" style={{marginRight: '0'}}>
         <div className='element-contain'>
           <div className='most-left'>
             <div className='left-inner-container'>
